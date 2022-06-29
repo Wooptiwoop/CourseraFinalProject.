@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+
+<header>
+    <h1>Le Form About Sushi</h1>
+</header>
+
+<form action="formsub.html" onsubmit="return checkForm(this)">
+    <b>First</b> Name: <input type="text" name="firstname"><br>
+    <b>Last</b> Name: <input type="text" name="lastname" value="Smith"><br>
+    <b>Favorite</b> Sushi Roll: <input type="text" name="favroll"><br>
+<br>
+<b>Favorite Type of Sushi:</b><br>
+    <input type="radio" name="food" value="Sashimi" checked> Sashimi<br>
+    <input type="radio" name="food" value="Nigiri"> Nigiri<br>
+    <input type="radio" name="food" value="Chirashi"> Chirashi<br>
+    <input type="radio" name="food" value="Maki"> Maki<br>
+    <input type="radio" name="food" value="Uramaki"> Uramaki<br>
+    <input type="radio" name="food" value="Temaki"> Temaki<br>
+<br>
+<b>Preparation Preference:</b><br>
+    <input type="checkbox" name="skills" value="HTML"> I like Raw Fish in Sushi Rolls<br>
+    <input type="checkbox" name="skills" value="JavaScript"> I like Cooked Fish in Sushi Rolls<br>
+<br>
+<b>How many Sushi rolls you eat per sitting?</b> (between 1 and 30):
+    <input type="number" name="quantity" min="1" max="30" placeholder="1"><br>
+<br>
+Email Address:
+<input type="email" name="email1" required placeholder="Enter an email address">
+<br>
+Repeat to Confirm Email Address:
+<input type="email" name="email2" required placeholder="Repeat the same email address">
+<br>
+    <button style="margin-top: 10px; align-items: center;">Submit your answer here pls :)</button>
+</form>
+
+<div id="patrick"></div>
+
+    <script type="text/javascript" src="app.js"></script> 
+</body>
+</html>

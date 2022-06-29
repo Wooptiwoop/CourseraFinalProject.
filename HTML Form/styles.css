@@ -1,0 +1,58 @@
+h1 {
+    text-shadow: 1.5px 1.5px black;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ateam {
+    margin-top: 30%;
+}
+
+header {
+    background-image: url(images/beatiful-backgroundlol.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    background-image: url(images/beatiful-backgroundlol.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#patrick {
+    background-image: url(images/thinking.png);
+    height: 150px;
+    width: 150px;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 55px 15px;
+    border: 5px solid black;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+form {
+    margin: 20px 15px;
+    padding-left: 10px;
+    width: 45%;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin: 3px 0;
+}
